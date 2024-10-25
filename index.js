@@ -23,7 +23,7 @@ const main = async () => {
 (async () => {
   try {
     const latestVersion = await _fdy.get(
-      "https://raw.githubusercontent.com/ShadowScripts1/TG-memefi/refs/heads/main/package.json"
+      "https://raw.githubusercontent.com/ShadowScripts1/TG-memefi/refs/heads/master/package.json"
     );
     if (!_.isEqual(latestVersion.data.version, version)) {
       logger.versionWarning(
