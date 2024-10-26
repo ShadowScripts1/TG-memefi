@@ -57,42 +57,42 @@ You can download [**Repository**](https://github.com/ShadowScripts1/TG-memefi) b
 
 ```shell
 ~ >>> git clone https://github.com/ShadowScripts1/TG-memefi.git
-~ >>> cd MemeFiBot-New
+~ >>> cd TG-memefi
 
 #Linux and MocOS
-~/MemeFiBot-New >>> chmod +x check_node.sh
-~/MemeFiBot-New >>> ./check_node.sh
+~/TG-memefi >>> chmod +x check_node.sh
+~/TG-memefi >>> ./check_node.sh
 
 OR
 
-~/MemeFiBot-New >>> npm install
-~/MemeFiBot-New >>> cp .env-example .env
-~/MemeFiBot-New >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/MemeFiBot-New >>> node index.js
+~/TG-memefi >>> npm install
+~/TG-memefi >>> cp .env-example .env
+~/TG-memefi >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/TG-memefi >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in MemeFiBot-New directory to install the dependencies
-2. Double click on START.bat in MemeFiBot-New directory to start the bot
+1. Double click on INSTALL.bat in TG-memefi directory to install the dependencies
+2. Double click on START.bat in TG-memefi directory to start the bot
 
 OR
 
-~/MemeFiBot-New >>> npm install
-~/MemeFiBot-New >>> cp .env-example .env
-~/MemeFiBot-New >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/MemeFiBot-New >>> node index.js
+~/TG-memefi >>> npm install
+~/TG-memefi >>> cp .env-example .env
+~/TG-memefi >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/TG-memefi >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/MemeFiBot-New >>> node index.js --action=1
+~/TG-memefi >>> node index.js --action=1
 
 OR
 
-~/MemeFiBot-New >>> node index.js --action=2 # For session
+~/TG-memefi >>> node index.js --action=2 # For session
 OR
 
-~/MemeFiBot-New >>> node index.js --action=3 # For query id
+~/TG-memefi >>> node index.js --action=3 # For query id
 
 #1 - Create session
 #2 - Run clicker
