@@ -60,13 +60,14 @@ You can download [**Repository**](https://github.com/ShadowScripts1/TG-memefi) b
 ~ >>> cd TG-memefi
 
 #Linux and MocOS
-~/TG-memefi >>> chmod +x check_node.sh
-~/TG-memefi >>> ./check_node.sh
+~/TG-memefi >>> chmod +x install.sh
+~/TG-memefi >>> ./install.sh
 
 OR
 
 ~/TG-memefi >>> npm install
-~/TG-memefi >>> cp .env-example .env
+~/TG-memefi >>> cp .env.example .env
+
 ~/TG-memefi >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
 ~/TG-memefi >>> node index.js
 
