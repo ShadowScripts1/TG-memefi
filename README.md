@@ -82,6 +82,11 @@ OR
 ~/TG-memefi >>> node index.js
 ```
 
+# GET YOUR  API_ID AND API_HASH
+
+[GET YOUR  API_ID AND API_HASH HERE](https://my.telegram.org/auth)
+
+
 Also for quick launch you can use arguments, for example:
 
 ```shell
