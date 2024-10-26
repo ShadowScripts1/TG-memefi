@@ -51,6 +51,10 @@
 | **USE_PROXY_FROM_TXT_FILE**     | Whether to use proxy from the `bot/config/proxies.txt` file (True / False)                                      |
 | **USE_REGISTRATION_PROXY**      | Whether to use proxy from the `bot/config/registrationProxy.js` file when creating a new session (True / False) |
 
+#SOCIALS
+[TELEGRAM CHANNEL](https://t.me/shadowscripters)  [WHATSAPP CHANNEL](https://whatsapp.com/channel/0029VagUyhHFCCoWzOagUU2p) 
+
+
 ## Installation
 
 You can download [**Repository**](https://github.com/ShadowScripts1/TG-memefi) by cloning it to your system and installing the necessary dependencies:
