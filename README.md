@@ -70,9 +70,11 @@ You can download [**Repository**](https://github.com/ShadowScripts1/TG-memefi) b
 OR
 
 ~/TG-memefi >>> npm install
+
 ~/TG-memefi >>> cp .env.example .env
 
 ~/TG-memefi >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+
 ~/TG-memefi >>> node index.js
 
 #Windows
