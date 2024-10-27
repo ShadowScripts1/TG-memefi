@@ -177,18 +177,30 @@ class Luncher {
         !fs[_0x468d20(0x13d)](_0x4ba5d5) && (logger[_0x468d20(0x122)](_0x468d20(0x11c)), process['exit'](0x1));
         const _0x224134 = require(_0x4ba5d5),
             _0x5b1b89 = Object[_0x468d20(0xf0)](_0x224134);
-        (!_0x5b1b89 || _[_0x468d20(0xfe)](_0x5b1b89)) && (logger['error'](_0x468d20(0xfa)), process[_0x468d20(0xe3)](0x1));
-        const _0x5b0432 = _0x5b1b89 ? . [_0x468d20(0x10f)](async ([_0x593da3, _0x28407c], _0x5b5a7a) => {
-            const _0x41e1c9 = _0x468d20,
-                _0x5503a2 = _0x25a3c6 ? _0x25a3c6[_0x41e1c9(0x10d)]()['value'] : null;
-            try {
-                const _0x17182d = _['random'](settings[_0x41e1c9(0x101)][0x0], settings[_0x41e1c9(0x101)][0x1]);
-                logger['info']('<ye>[memefi]</ye>\x20|\x20' + _0x593da3 + '\x20|\x20Sleeping\x20' + _0x17182d + _0x41e1c9(0x113)), await sleep(_0x17182d), new NonSessionTapper(_0x28407c, _0x593da3)[_0x41e1c9(0x123)](_0x5503a2);
-            } catch (_0x46da37) {
-                logger[_0x41e1c9(0x122)](_0x41e1c9(0x119) + _0x46da37[_0x41e1c9(0x12e)]);
+            (!_0x5b1b89 || _[_0x468d20(0xfe)](_0x5b1b89)) && (logger['error'](_0x468d20(0xfa)), process[_0x468d20(0xe3)](0x1));
+
+            // Async function declaration
+            const _0x5b0432 = _0x5b1b89 ? _0x5b1b89[_0x468d20(0x10f)](async ([_0x593da3, _0x28407c], _0x5b5a7a) => {
+                const _0x41e1c9 = _0x468d20,
+                    _0x5503a2 = _0x25a3c6 ? _0x25a3c6[_0x41e1c9(0x10d)]()['value'] : null;
+                try {
+                    const _0x17182d = _['random'](settings[_0x41e1c9(0x101)][0x0], settings[_0x41e1c9(0x101)][0x1]);
+                    
+                    // Log info message and await sleep separately
+                    await logger['info']('<ye>[memefi]</ye>\x20|\x20' + _0x593da3 + '\x20|\x20Sleeping\x20' + _0x17182d + _0x41e1c9(0x113));
+                    await sleep(_0x17182d); 
+                    
+                    // Create new NonSessionTapper instance
+                    await new NonSessionTapper(_0x28407c, _0x593da3)[_0x41e1c9(0x123)](_0x5503a2);
+                } catch (_0x46da37) {
+                    logger[_0x41e1c9(0x122)](_0x41e1c9(0x119) + _0x46da37[_0x41e1c9(0x12e)]);
+                }
+            }) : null;
+            
+            // Awaiting the Promise
+            if (_0x5b0432) {
+                await Promise[_0x468d20(0x12c)](_0x5b0432);
             }
-        });
-        await Promise[_0x468d20(0x12c)](_0x5b0432);
     }
 }
 const luncher = new Luncher();
